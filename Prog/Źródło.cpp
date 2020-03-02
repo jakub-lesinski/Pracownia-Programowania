@@ -15,9 +15,9 @@
 #include "Polygon.h"
 
 int main() {
-	Punkt2* vertices = new Punkt2;
-
-	setVertices(punkty, n);
+	Punkt2 w1 = Punkt2(10.0, 20.0);
+	Punkt2 w2 = Punkt2(50.0, 120.0);
+	Punkt2 w3 = w1 + w2;
 
 
 

@@ -32,7 +32,12 @@ public:
 	double getAngle();
 
 	//odleg³oœæ punktu od punktu _p
-	double getDistance(Punkt2 _p, Punkt2 _d);
+	double getDistance(Punkt2 _p, Punkt2 _d) {
+		for (int i = 0; i < count - 1; i++) {
+			result += getDistance(vertices[i], vertices[i + 1]);
+		}
+		result += getDistance(vertices[count], vertices[0]);
+	}
 
 };
 

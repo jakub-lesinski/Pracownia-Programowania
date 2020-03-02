@@ -16,6 +16,7 @@
 #include <time.h>
 #include <cstdlib>
 #include "Punkt2.cpp"
+#include "Polygon.h"
 class Polygon
 {
 	unsigned int count; /*!< Iloœæ wierzcho³ków wielok¹ta */
