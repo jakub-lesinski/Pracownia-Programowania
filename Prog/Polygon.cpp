@@ -1,13 +1,13 @@
 /*! \file Punkt2.h
-	*
-	* \brief Zawiera definicjê klasy Polygon
-	*
-	* Plik zawiera implementacjê metod klasy Polygo.
-	*
-	* \author Jakub Lesiñski
-	* \date 2020.02.17
-	* \version 1.00.00
-	*/
+    *
+    * \brief Zawiera definicjê klasy Polygon
+    *
+    * Plik zawiera implementacjê metod klasy Polygo.
+    *
+    * \author Jakub Lesiñski
+    * \date 2020.03.04
+    * \version 1.00.00
+    */
 
 #include "polygon.h"
 #include "punkt2.h"
@@ -15,20 +15,10 @@
 #include <cmath>
 using namespace std;
 
-
-class Punkt2{
-
-  (const Punkt2& p1, const Punkt2& p2)
-{
-    return Punkt2(p1.getX() + p2.getX(), p1.getY() + p2.getY())
+void Polygon::setVertices(Punkt2* _vertices, int _count) {
+    vertices = _vertices;
+    count = _count;
 }
-
-Punkt2 Punkt2::operator+(const Punkt2& p)
-{
-    return Punkt2(x + p.getX(), y + p.getY());
-}
-
-
 
 void Polygon::changeVertex(int i, double x, double y) {
     vertices[i].setX(x);
@@ -48,5 +38,4 @@ double Polygon::getPerimeter() {
     result += getDistance(vertices[count],vertices[0]);
     */
     return result;
-}
 }

@@ -9,7 +9,7 @@
 	* Klasa zawiera kilka metod skladowych
 	*
 	* \author Jakub Lesiñski
-	* \date 2020.02.17
+	* \date 2020.03.04
 	* \version 1.00.00
 	*/
 
@@ -32,12 +32,7 @@ public:
 	double getAngle();
 
 	//odleg³oœæ punktu od punktu _p
-	double getDistance(Punkt2 _p, Punkt2 _d) {
-		for (int i = 0; i < count - 1; i++) {
-			result += getDistance(vertices[i], vertices[i + 1]);
-		}
-		result += getDistance(vertices[count], vertices[0]);
-	}
+	double getDistance(Punkt2 _p, Punkt2 _d);
 
 };
 

@@ -8,7 +8,7 @@
 	*Zapisuje iloœæ wierzcho³ków,
 	*
 	* \author Jakub Lesiñski
-	* \date 2020.02.24
+	* \date 2020.03.04
 	* \version 1.00.00
 	*/
 
@@ -16,7 +16,6 @@
 #include <time.h>
 #include <cstdlib>
 #include "Punkt2.cpp"
-#include "Polygon.h"
 class Polygon
 {
 	unsigned int count; /*!< Iloœæ wierzcho³ków wielok¹ta */
