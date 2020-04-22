@@ -1,11 +1,2 @@
-﻿  main.cpp
-  polygon.cpp
-C:\Users\LesiX\Documents\Projekty\Programowanie\Pracownia-Programowania\Jakub_Lesiński_Programowanie_Lab\Jakub_Lesiński_Programowanie_Lab\polygon.cpp(23,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-C:\Users\LesiX\Documents\Projekty\Programowanie\Pracownia-Programowania\Jakub_Lesiński_Programowanie_Lab\Jakub_Lesiński_Programowanie_Lab\polygon.cpp(41,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-C:\Users\LesiX\Documents\Projekty\Programowanie\Pracownia-Programowania\Jakub_Lesiński_Programowanie_Lab\Jakub_Lesiński_Programowanie_Lab\polygon.cpp(61,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-C:\Users\LesiX\Documents\Projekty\Programowanie\Pracownia-Programowania\Jakub_Lesiński_Programowanie_Lab\Jakub_Lesiński_Programowanie_Lab\polygon.cpp(80,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-C:\Users\LesiX\Documents\Projekty\Programowanie\Pracownia-Programowania\Jakub_Lesiński_Programowanie_Lab\Jakub_Lesiński_Programowanie_Lab\polygon.cpp(102,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-  Punkt2.cpp
-  Generowanie kodu...
-C:\Users\LesiX\Documents\Projekty\Programowanie\Pracownia-Programowania\Jakub_Lesiński_Programowanie_Lab\Jakub_Lesiński_Programowanie_Lab\polygon.cpp(128,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+﻿  Punkt2.cpp
   Jakub_Lesiński_Programowanie_Lab.vcxproj -> C:\Users\LesiX\Documents\Projekty\Programowanie\Pracownia-Programowania\Jakub_Lesiński_Programowanie_Lab\Debug\Jakub_Lesiński_Programowanie_Lab.exe

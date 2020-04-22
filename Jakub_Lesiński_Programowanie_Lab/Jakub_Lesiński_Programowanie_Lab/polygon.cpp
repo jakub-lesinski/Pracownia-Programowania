@@ -111,6 +111,7 @@ double Polygon::countTriangleArea() {
 Polygon& Polygon::operator=(Polygon&& p) {
 	if (&p != this) {
 		delete[] vertices;
+		vertices = new Punkt2[p.count];
 		vertices = p.vertices;
 		count = p.count;
 		p.count = 0;

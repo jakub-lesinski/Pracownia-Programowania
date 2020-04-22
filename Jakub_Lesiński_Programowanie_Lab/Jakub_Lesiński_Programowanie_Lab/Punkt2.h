@@ -43,6 +43,7 @@ public:
 	Punkt2(); //domyœlny 
 	Punkt2(double _x, double _y); //z argumentami
 	Punkt2(const Punkt2& p); //konstruktor kopiuj¹cy
+	Punkt2(Punkt2 &&p); //konsturktor przenosz¹cy
 
 	//operatory
 	Punkt2 operator+(const Punkt2& p) const;

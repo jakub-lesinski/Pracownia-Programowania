@@ -32,6 +32,13 @@ Punkt2& Punkt2::operator=(const Punkt2& p) {
 
 	return *this;
 }
+//konsturktor przenosz¹cy
+Punkt2::Punkt2(Punkt2&& p) {
+	x = p.x;
+	y = p.y;
+	p.x = 0;
+	p.y = 0;
+}
 
 
 Punkt2::Punkt2() {
