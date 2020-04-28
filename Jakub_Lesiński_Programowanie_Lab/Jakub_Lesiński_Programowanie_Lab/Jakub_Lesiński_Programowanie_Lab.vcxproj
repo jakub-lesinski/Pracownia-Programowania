@@ -124,10 +124,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MapPolygon.cpp" />
     <ClCompile Include="polygon.cpp" />
     <ClCompile Include="Punkt2.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="MapPolygon.h" />
     <ClInclude Include="polygon.h" />
     <ClInclude Include="Punkt2.h" />
   </ItemGroup>
